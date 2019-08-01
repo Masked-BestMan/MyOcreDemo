@@ -1,0 +1,572 @@
+{
+  materials: [
+    {
+      name: 'Hip_1',
+      parameters: [
+        {
+          baseColor: 'HipOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_Thigh_1',
+      parameters: [
+        {
+          baseColor: 'Left_ThighOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_Shin_1',
+      parameters: [
+        {
+          baseColor: 'Left_ShinOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_foot_1',
+      parameters: [
+        {
+          baseColor: 'Left_footCouleur_de_surface',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'R_toe_3',
+      parameters: [
+        {
+          baseColor: 'R_toe_3.1Occlusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'R_toe1',
+      parameters: [
+        {
+          baseColor: 'R_toe1.1Occlusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Right_Thigh_1',
+      parameters: [
+        {
+          baseColor: 'Right_ThighOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Right_Shin_1',
+      parameters: [
+        {
+          baseColor: 'Right_ShinOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Right_foot_1',
+      parameters: [
+        {
+          baseColor: 'Right_footOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Chest',
+      parameters: [
+        {
+          baseColor: 'Chest',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'White',
+      parameters: [
+        {
+          baseColor: '184302225',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_Shoulder_1',
+      parameters: [
+        {
+          baseColor: 'Left_ShoulderOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_Forearm_1',
+      parameters: [
+        {
+          baseColor: 'Left_Forearm.1Couleur_de_surface',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Left_Hand_1',
+      parameters: [
+        {
+          baseColor: 'Left_HandOcclusion_ambiante',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'fingertip_04',
+      parameters: [
+        {
+          baseColor: 'fingertip_b1Couleur_de_surface',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'White_0',
+      parameters: [
+        {
+          baseColor: '59417',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'bras',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.87451000000000001,
+            0.0039220000000000001,
+            0.87451000000000001,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'auto-barrel_1',
+      parameters: [
+        {
+          baseColor: 'autobarel',
+        },
+        {
+          baseColorTint: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          metallic: 0,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/pink_dread.obj',
+    name: 'pink_dread',
+    recenter: 'root',
+    scale: 0.042665000000000002,
+  },
+  samplers: [
+    {
+      file: 'sampledata\\Right_footOcclusion_ambiante.jpg',
+      name: 'Right_footOcclusion_ambiante',
+      pipeline_name: 'Right_footOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\Right_ShinOcclusion_ambiante.jpg',
+      name: 'Right_ShinOcclusion_ambiante',
+      pipeline_name: 'Right_ShinOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\Right_ThighOcclusion_ambiante.jpg',
+      name: 'Right_ThighOcclusion_ambiante',
+      pipeline_name: 'Right_ThighOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\HipOcclusion_ambiante.jpg',
+      name: 'HipOcclusion_ambiante',
+      pipeline_name: 'HipOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\Left_ThighOcclusion_ambiante.jpg',
+      name: 'Left_ThighOcclusion_ambiante',
+      pipeline_name: 'Left_ThighOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\Left_footCouleur_de_surface.jpg',
+      name: 'Left_footCouleur_de_surface',
+      pipeline_name: 'Left_footCouleur_de_surface.jpg',
+    },
+    {
+      file: 'sampledata\\Left_ShinOcclusion_ambiante.jpg',
+      name: 'Left_ShinOcclusion_ambiante',
+      pipeline_name: 'Left_ShinOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\R_toe_3.1Occlusion_ambiante.jpg',
+      name: 'R_toe_3.1Occlusion_ambiante',
+      pipeline_name: 'R_toe_3.1Occlusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\R_toe1.1Occlusion_ambiante.jpg',
+      name: 'R_toe1.1Occlusion_ambiante',
+      pipeline_name: 'R_toe1.1Occlusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\autobarel.jpg',
+      name: 'autobarel',
+      pipeline_name: 'autobarel.jpg',
+    },
+    {
+      file: 'sampledata\\Chest.jpg',
+      name: 'Chest',
+      pipeline_name: 'Chest.jpg',
+    },
+    {
+      file: 'sampledata\\fingertip_b1Couleur_de_surface.jpg',
+      name: 'fingertip_b1Couleur_de_surface',
+      pipeline_name: 'fingertip_b1Couleur_de_surface.jpg',
+    },
+    {
+      file: 'sampledata\\184302225.jpg',
+      name: '184302225',
+      pipeline_name: '184302225.jpg',
+    },
+    {
+      file: 'sampledata\\Left_ShoulderOcclusion_ambiante.jpg',
+      name: 'Left_ShoulderOcclusion_ambiante',
+      pipeline_name: 'Left_ShoulderOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\Left_Forearm.1Couleur_de_surface.jpg',
+      name: 'Left_Forearm.1Couleur_de_surface',
+      pipeline_name: 'Left_Forearm.1Couleur_de_surface.jpg',
+    },
+    {
+      file: 'sampledata\\Left_HandOcclusion_ambiante.jpg',
+      name: 'Left_HandOcclusion_ambiante',
+      pipeline_name: 'Left_HandOcclusion_ambiante.jpg',
+    },
+    {
+      file: 'sampledata\\59417.jpg',
+      name: '59417',
+      pipeline_name: '59417.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

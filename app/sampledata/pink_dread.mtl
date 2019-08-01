@@ -1,0 +1,72 @@
+# Exported from 3D Builder
+
+newmtl Hip_1
+Kd 1.000000 1.000000 1.000000
+map_Kd HipOcclusion_ambiante.jpg
+
+newmtl Left_Thigh_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_ThighOcclusion_ambiante.jpg
+
+newmtl Left_Shin_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_ShinOcclusion_ambiante.jpg
+
+newmtl Left_foot_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_footCouleur_de_surface.jpg
+
+newmtl R_toe_3
+Kd 1.000000 1.000000 1.000000
+map_Kd R_toe_3.1Occlusion_ambiante.jpg
+
+newmtl R_toe1
+Kd 1.000000 1.000000 1.000000
+map_Kd R_toe1.1Occlusion_ambiante.jpg
+
+newmtl Right_Thigh_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Right_ThighOcclusion_ambiante.jpg
+
+newmtl Right_Shin_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Right_ShinOcclusion_ambiante.jpg
+
+newmtl Right_foot_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Right_footOcclusion_ambiante.jpg
+
+newmtl Chest
+Kd 1.000000 1.000000 1.000000
+map_Kd Chest.jpg
+
+newmtl White
+Kd 1.000000 1.000000 1.000000
+map_Kd 184302225.jpg
+
+newmtl Left_Shoulder_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_ShoulderOcclusion_ambiante.jpg
+
+newmtl Left_Forearm_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_Forearm.1Couleur_de_surface.jpg
+
+newmtl Left_Hand_1
+Kd 1.000000 1.000000 1.000000
+map_Kd Left_HandOcclusion_ambiante.jpg
+
+newmtl fingertip_04
+Kd 1.000000 1.000000 1.000000
+map_Kd fingertip_b1Couleur_de_surface.jpg
+
+newmtl White_0
+Kd 1.000000 1.000000 1.000000
+map_Kd 59417.jpg
+
+newmtl bras
+Kd 0.874510 0.003922 0.874510
+
+newmtl auto-barrel_1
+Kd 1.000000 1.000000 1.000000
+map_Kd autobarel.jpg

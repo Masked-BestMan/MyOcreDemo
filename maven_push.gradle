@@ -1,0 +1,87 @@
+apply plugin: 'maven'
+apply plugin: 'signing'
+
+def mavenRepositoryUrl
+if (isReleaseBuild()) {
+    println 'RELEASE BUILD'
+    mavenRepositoryUrl =  RELEASE_REPOSITORY_URL
+} else {
+    println 'DEBUG BUILD'
+    mavenRepositoryUrl = SNAPSHOT_REPOSITORY_URL
+}
+
+def isReleaseBuild() {
+    return !VERSION_NAME.contains("SNAPSHOT");
+}
+
+
+afterEvaluate { project ->
+
+    // 生成Javadoc文档
+    task androidJavadocs(type: Javadoc) {
+        source = android.sourceSets.main.java.srcDirs
+        classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    }
+
+    // 生成Javadoc文档jar包
+    task androidJavadocsJar(type: Jar, dependsOn: androidJavadocs) {
+        classifier = 'javadoc'
+        from androidJavadocs.destinationDir
+    }
+
+
+    // 防止编码问题
+    tasks.withType(Javadoc) {
+        options.addStringOption('Xdoclint:none', '-quiet')
+        options.addStringOption('encoding', 'UTF-8')
+        options.addStringOption('charSet', 'UTF-8')
+    }
+
+    // 生成源码文件jar包
+    task androidSourcesJar(type: Jar) {
+        classifier = 'sources'
+        from android.sourceSets.main.java.srcDirs
+    }
+
+    artifacts {
+        // 源码文件jar包执行命令
+        archives androidSourcesJar
+        // Javadoc文档jar包执行命令
+        archives androidJavadocsJar
+    }
+
+
+    uploadArchives {
+
+        repositories {
+            mavenDeployer {
+
+                beforeDeployment {
+                    MavenDeployment deployment -> signing.signPom(deployment)
+                    println '开始上传了'
+                    if(setting.minSdk > 14){
+                        throw new GradleException("'minsdk 设置回14啊'");
+                    }
+                }
+
+                repository(url: mavenRepositoryUrl) {
+                    authentication(userName: NEXUS_USERNAME, password: NEXUS_PASSWORD)
+                }
+
+                pom.project {
+                    groupId POM_GROUP_ID
+                    artifactId POM_ARTIFACT_ID
+                    version = VERSION_NAME
+                    packaging POM_PACKAGING
+                    description POM_DESCRIPTION
+                    url POM_URL
+                }
+            }
+        }
+    }
+
+    signing {
+        required { isReleaseBuild() && gradle.taskGraph.hasTask("uploadArchives") }
+        sign configurations.archives
+    }
+}
